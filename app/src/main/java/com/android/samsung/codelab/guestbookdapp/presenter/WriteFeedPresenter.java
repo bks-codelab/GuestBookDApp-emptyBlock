@@ -9,6 +9,7 @@ import com.android.samsung.codelab.guestbookdapp.model.Feed;
 import com.android.samsung.codelab.guestbookdapp.model.UserInfo;
 import com.android.samsung.codelab.guestbookdapp.remote.RemoteManager;
 import com.android.samsung.codelab.guestbookdapp.util.AppExecutors;
+import com.samsung.android.sdk.coldwallet.ScwService;
 
 import org.web3j.abi.FunctionEncoder;
 import org.web3j.abi.datatypes.Function;

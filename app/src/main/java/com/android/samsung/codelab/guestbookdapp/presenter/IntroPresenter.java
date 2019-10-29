@@ -1,10 +1,16 @@
 package com.android.samsung.codelab.guestbookdapp.presenter;
 
+import android.text.TextUtils;
 import android.util.Log;
 
 import com.android.samsung.codelab.guestbookdapp.contract.IntroContract;
 import com.android.samsung.codelab.guestbookdapp.model.UserInfo;
 import com.android.samsung.codelab.guestbookdapp.util.PrefsHelper;
+import com.samsung.android.sdk.coldwallet.ScwDeepLink;
+import com.samsung.android.sdk.coldwallet.ScwService;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class IntroPresenter implements IntroContract.Presenter {
 
